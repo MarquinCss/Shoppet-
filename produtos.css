@@ -1,0 +1,187 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+
+#image {
+  transition:9s ;
+}
+.image-transition{
+ transition: all 0.5s ease;
+}	
+	
+
+
+.preço{
+	font-size:15px;
+	
+}
+
+	
+img:hover{
+	transform:scale(1.2);
+	
+}
+
+.btn{
+	width:100px;
+	height:20px;
+	font-size:15px;
+	background:none;
+	border:none;
+	margin-bottom:20px;
+
+
+}
+
+
+
+button:hover{
+	transform:scale(1.2);
+	transition: all 1.5s ease;
+}
+
+hr{
+	height:0.5em;
+	background-color:black;
+}
+
+.imagens-total{
+	margin:20px;
+	background-color:white;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:10px;
+  text-align:center;
+}
+
+img{
+	width:60px;
+	height:60px;
+	 transition: all 5s ease;
+}
+
+
+
+	header {	background-color:#DC143C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+	height:60px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: 	#8B0000;
+}}
+
+
+	
+img:hover{
+	transform:scale(1.2);
+	
+}
+
+.btn{
+	width:100px;
+	height:20px;
+	font-size:15px;
+	font-size:35px;
+	background:none;
+	border:none;
+	margin-bottom:20px;
+
+
+}
+
+
+
+button:hover{
+	transform:scale(1.2);
+	transition: all 1.5s ease;
+}
+
+hr{
+	height:0.5em;
+	background-color:black;
+}
+
+#product-display {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+#product-display img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#product-display h2,
+#product-display p {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.tela{
+	display:flex;
+	width:100%;
+	height:500px;
+	
+}
+
+.tela > img{
+	width:300px;
+	height:500px;
+}
+
+.textos{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	margin:50px;
+	padding:50px;
+	
+	
+}
+
+
+.textos > .tulo{
+	font-size:60px;
+}
+

@@ -1,0 +1,86 @@
+.bg-side{
+    background-color:#DC143C;
+    color: white;
+    height: 100vh;
+	
+    
+
+}
+.header{
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+
+.body-form{
+    padding: 20px;
+}
+
+.font-logo{
+    margin-left: 10px;
+    font-size: 40px;
+    
+}
+
+.btn-custom-primary{
+    background-color:indigo;
+    border: none;
+    box-shadow: 2px 2px 5px 1px black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+	transform:transition .5s;
+
+}
+
+.btn-custom-primary:focus{
+	background:#8B008B;
+	color:black;
+	  transform: translateX(10px) scale(1.2);
+		
+}
+.btn-custom-primary:hover{
+	background:#8B008B;
+	transition: 3s;
+	color:white;
+	
+}
+
+.link-float{
+
+    text-decoration: none;
+    float: right;
+    margin: 20px;
+	color:white;
+}
+
+.link-float:hover{
+	transition: 1s;
+	color:	black;
+	
+}
+
+.side-logo{
+    text-align: center;
+    margin-top: 60px;    
+}
+
+.msg{
+font-size:30px;
+
+}
+
+.logo-margin-top{
+	border-radius:90%;
+	border:5px solid black;
+}
+
+.mio{
+	font-size:40px;
+}
+
+.t-2{
+	font-size:60px;
+}
+
